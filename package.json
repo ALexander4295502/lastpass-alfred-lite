@@ -10,6 +10,8 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
   }
 }
