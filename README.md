@@ -1,6 +1,8 @@
 # lastpass-alfred-lite
 Alfred workflow lastpass-alfred-lite
 
+![usage screenshot](./usage.png)
+
 ## Usage
 ```bash
 lpass <keyword> #keyword can be the username/url/vault_entry_name
