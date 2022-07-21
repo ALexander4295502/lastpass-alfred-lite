@@ -22,5 +22,7 @@ chmod 777 .lastpass_lite_vault_file
 ```
 
 ### Setup global environment in alfred
-**Note: only `LAST_PASS_LITE_USERNAME` and `LAST_PASS_LITE_PWD` are required. `NODE_EXTRA_CA_CERTS` is need only if you have additional certificate needs to import to node.js runtime (e.g. behind a proxy)**
+* **[Required]** `LAST_PASS_LITE_USERNAME`: the username of your lastpass account
+* **[Required]** `LAST_PASS_LITE_PWD`: the password of your lastpass account
+* [Optional] `NODE_EXTRA_CA_CERTS`: need only if you have additional certificate needs to import to node.js runtime (e.g. behind a proxy)**
 ![Environment variables setup](./env_var.png)
