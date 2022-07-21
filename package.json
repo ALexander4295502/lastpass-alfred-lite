@@ -1,6 +1,6 @@
 {
   "name": "lastpass-alfred-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "git": "https://github.com/ALexander4295502/lastpass-alfred-lite",
   "main": "index.js",
   "license": "MIT",
