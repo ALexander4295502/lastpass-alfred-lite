@@ -1,0 +1,15 @@
+{
+  "name": "lastpass-alfred-lite",
+  "version": "1.0.0",
+  "git": "https://github.com/ALexander4295502/lastpass-alfred-lite",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^1.0.0",
+    "lastpass": "^1.0.3"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

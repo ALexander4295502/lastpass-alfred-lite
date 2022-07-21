@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfred.lastpasslite</string>
+	<key>connections</key>
+	<dict>
+		<key>28118CE9-DBFA-4363-8C83-4D9B20537430</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DD546EB0-38FF-47DF-949E-1A26D386C63A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Zheng Yuan</string>
+	<key>description</key>
+	<string>Alfred workflow for LastPass</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>LastPass Lite</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>DD546EB0-38FF-47DF-949E-1A26D386C63A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>lpass</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Fetching passwords...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Please enter the keyword for searching</string>
+				<key>title</key>
+				<string>keyword for searching</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>28118CE9-DBFA-4363-8C83-4D9B20537430</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>28118CE9-DBFA-4363-8C83-4D9B20537430</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>205</integer>
+		</dict>
+		<key>DD546EB0-38FF-47DF-949E-1A26D386C63A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>205</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>LAST_PASS_LITE_PWD</key>
+		<string>Yuanzheng0116!</string>
+		<key>LAST_PASS_LITE_USERNAME</key>
+		<string>yuanzhengstl@gmail.com</string>
+		<key>NODE_EXTRA_CA_CERTS</key>
+		<string>/Users/zheng.yuan/ZscalerRootCa.pem</string>
+	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string>https://github.com/ALexander4295502/lastpass-alfred-lite</string>
+</dict>
+</plist>
