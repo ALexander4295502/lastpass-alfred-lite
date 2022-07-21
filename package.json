@@ -1,6 +1,6 @@
 {
   "name": "lastpass-alfred-lite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "git": "https://github.com/ALexander4295502/lastpass-alfred-lite",
   "main": "index.js",
   "license": "MIT",
@@ -12,6 +12,6 @@
   "scripts": {
     "start": "node index.js",
     "postinstall": "alfy-init",
-		"preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup"
   }
 }
