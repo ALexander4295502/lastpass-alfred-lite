@@ -1,5 +1,5 @@
 # lastpass-alfred-lite
-Alfred workflow lastpass-alfred-lite
+> A lightweight alfred workflow for accessing your lastpass vault items. No `lastpass-cli` needed!
 
 ![usage screenshot](./usage.png)
 
